@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a6a6a6;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 100%;
+    
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+.container2 {
+    top: 0;    
+    max-width: 100%;
+    margin: 0 auto 20px 0;
+    padding: 30px;
+    background-color: #878787;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    justify-content: center; /* Centra verticalmente los elementos */
+    align-items: center; 
+}
+
+h1 {
+    
+        text-align: center;
+        color: #333;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Muestra los elementos en una sola línea */
+
+}
+
+li {
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #007bff; /* Color de fondo */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+
+img {
+    max-width: 1100px; /* Establece el ancho máximo de la imagen al 100% del contenedor */
+    height: auto; /* Permite que la altura de la imagen se ajuste automáticamente para mantener la proporción */
+   /* cualquier margen o relleno adicional y alinea la imagen al centro */
+    display: flex;
+    justify-content: center; /* Centra verticalmente los elementos */
+    align-items: center; 
+    position: relative;
+    /* Recorta el lado derecho de la imagen */
+    clip-path: polygon(0 0, 90% 0, 90% 100%, 0 100%);
+   
+    margin-bottom: 20px;/* Centra la imagen horizontalmente */
+}
+
+.container3 {
+    width: 100%; /* Utilizamos porcentajes para el tamaño del contenedor */
+    height: 100vh; /* Usamos una altura relativa al 60% del viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 img {
+    max-width: 100%; /* La imagen ocupa el 100% del contenedor */
+    max-height: 100%; /* La imagen ocupa el 100% del contenedor */
+    object-fit: contain; /* Para mantener la relación de aspecto */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregamos una sombra */
+ 
+}

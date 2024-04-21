@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Comparación de Películas y Series</title>
+</head>
+<div class="container2">      
+    <ul>
+        <li><a href="/directors">Top 10 Directores</a></li>
+        <li><a href="/types">Comparación de Películas y Series</a></li>
+        <li><a href="/categories">Top 5 Categorías</a></li>
+        <li><a href="/">Inicio</a></li>
+    </ul>
+</div>
+
+<div class="container">
+    <body >
+        <h1>Comparación de Películas y Series en Netflix</h1>
+      
+            <img src="{{ url_for('static', filename=plot2) }}" alt="Top 5 Categorías en Netflix">
+
+    </body>
+</div>
+</html>

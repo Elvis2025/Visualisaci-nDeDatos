@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Top 10 Directores en Netflix</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<div class="container2">      
+    <ul>
+        <li><a href="/directors">Top 10 Directores</a></li>
+        <li><a href="/types">Comparación de Películas y Series</a></li>
+        <li><a href="/categories">Top 5 Categorías</a></li>
+        <li><a href="/">Inicio</a></li>
+    </ul>
+</div>
+<div class="container">
+    <body >
+        <h1>Top 10 Directores en Netflix</h1>
+
+            <img src="{{ url_for('static', filename=plot1) }}" alt="Top 10 Directores en Netflix">
+     
+    </body>
+</div>
+</html>
